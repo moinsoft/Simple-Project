@@ -29,6 +29,23 @@ a {
   clear: both;
 }
 
+
+.btn {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(to right, #00c6ff 0%, #2196f3 51%, #00c6ff 100%);
+  background-size: 200% auto;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
 /*==========================
 Header Section
 ============================*/
@@ -82,4 +99,61 @@ Banner Section
 
 .banner img {
   width: 100%;
+}
+
+
+/*==========================
+Services Section
+============================*/
+
+.services {
+  margin: 50px 0;
+}
+
+.title h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.single-service {
+  width: 300px;
+  padding: 20px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0px 13px 5px #b6dcfb;
+}
+
+.single-service:last-child {
+  margin-right: 0;
+}
+
+.single-service h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-img {
+  height: 146px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.single-service img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.single-service img:hover {
+  transform: scale(1.2);
+}
+
+.single-service p {
+  text-align: justify;
+  font-size: 16px;
 }
