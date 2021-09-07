@@ -8,3 +8,70 @@ body {
   font-size: 14px;
   line-height: 22px;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.fix::before,
+.fix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*==========================
+Header Section
+============================*/
+
+.header {
+  padding: 30px 20px;
+  background-color: #e6fdfe;
+}
+
+.logo {
+  width: 50px;
+  float: left;
+}
+
+.logo a img {
+  width: 100%;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(to right, #00c6ff 0%, #2196f3 51%, #00c6ff 100%);
+  background-size: 200% auto;
+  transition: all 0.5s ease;
+}
+
+.menu ul li a:hover {
+  background-position: right center;
+}
+
+.menu ul li a:last-child {
+  margin-right: 0;
+}
