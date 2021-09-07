@@ -75,3 +75,11 @@ Header Section
 .menu ul li a:last-child {
   margin-right: 0;
 }
+
+/*==========================
+Banner Section
+============================*/
+
+.banner img {
+  width: 100%;
+}
