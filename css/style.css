@@ -124,8 +124,15 @@ Services Section
   box-shadow: 0 0px 13px 5px #b6dcfb;
 }
 
-.single-service:last-child {
+.single-service:last-child, .service-page .single-service:nth-child(4), .service-page .single-service:last-child {
   margin-right: 0;
+}
+
+.service-page .single-service {
+  width: 231px;
+  padding: 10px;
+  margin-right: 25px;
+  margin-bottom: 30px;
 }
 
 .single-service h4 {
@@ -139,6 +146,10 @@ Services Section
   height: 146px;
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+.service-page .service-img{
+  height: 118px;
 }
 
 .single-service img {
