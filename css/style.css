@@ -240,3 +240,34 @@ Footer Section
 .footer p a:hover {
   color: #ffff00;
 }
+
+/*==========================
+Page Banner Section
+============================*/
+
+.page-banner {
+  background-size: cover;
+  background-position: center;
+  padding: 110px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.page-banner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #333;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.page-banner h2 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
