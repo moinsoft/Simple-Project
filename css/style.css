@@ -124,7 +124,7 @@ Services Section
   box-shadow: 0 0px 13px 5px #b6dcfb;
 }
 
-.single-service:last-child, .service-page .single-service:nth-child(4), .service-page .single-service:last-child {
+.single-service:last-child, .service-page .single-service:nth-child(4n){
   margin-right: 0;
 }
 
@@ -281,4 +281,31 @@ Page Banner Section
   font-size: 50px;
   text-transform: capitalize;
   color: #ffffff;
+}
+
+
+/*====================================
+Gallery Page - Gallery Section Section
+=======================================*/
+
+.galleries{
+  margin: 50px 0;
+}
+
+.gallery{}
+
+.single-gallery{
+  float: left;
+  width: 316px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.single-gallery:nth-child(3n) {
+  margin-right: 0;
+}
+
+.single-gallery iframe{
+  width: 100%;
+  border: 5px solid #dddddd;
 }
