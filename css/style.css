@@ -29,7 +29,6 @@ a {
   clear: both;
 }
 
-
 .btn {
   font-size: 20px;
   display: inline-block;
@@ -101,7 +100,6 @@ Banner Section
   width: 100%;
 }
 
-
 /*==========================
 Services Section
 ============================*/
@@ -156,4 +154,57 @@ Services Section
 .single-service p {
   text-align: justify;
   font-size: 16px;
+}
+
+/*==========================
+About Section
+============================*/
+.about {
+  padding: 50px 0;
+}
+
+.about-left {
+  float: left;
+  width: 680px;
+  margin-right: 50px;
+}
+
+.about-left h4,
+.about-right h4 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.about-left p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-right {
+  float: right;
+  width: 270px;
+}
+
+.about-right ul li {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  background-image: url("../assets/right-arrow.png");
+  background-repeat: no-repeat;
+  background-position: -4px 0;
+}
+
+.about-right ul li a {
+  display: inline-block;
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  transition: all 0.3s ease;
+}
+
+.about-right ul li a:hover {
+  color: #2196f3;
 }
