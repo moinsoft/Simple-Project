@@ -201,10 +201,10 @@ About Section
 
 .about-right ul li {
   border-bottom: 1px solid #dddddd;
-  margin-bottom: 10px;
+  padding: 10px 0;
   background-image: url("../assets/right-arrow.png");
   background-repeat: no-repeat;
-  background-position: -4px 0;
+  background-position: -4px center;
 }
 
 .about-right ul li a {
@@ -212,7 +212,6 @@ About Section
   color: #666666;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
   padding-left: 30px;
   transition: all 0.3s ease;
 }
@@ -306,4 +305,77 @@ Gallery Page - Gallery Section Section
 .single-gallery iframe {
   width: 100%;
   border: 5px solid #dddddd;
+}
+
+/*====================================
+Contact Page - Contact Section Section
+=======================================*/
+
+.contact {
+  margin: 50px 0;
+}
+
+.contact-form {
+  width: 680px;
+  float: left;
+  margin-right: 50px;
+}
+
+.contact-form h4,
+.contact-address h4 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-form form input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  box-shadow: 0 0 0 0.25rem rgb(33, 150, 243, 0.3);
+}
+
+.contact-form form textarea {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px 10px;
+  outline: none;
+}
+
+.contact-form form input[type="submit"] {
+  cursor: pointer;
+}
+
+.contact-address {
+  width: 270px;
+  float: right;
+}
+
+.contact-address ul li,
+.contact-address ul li a {
+  border-bottom: 1px solid #dddddd;
+  padding: 20px 0;
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-address ul li:hover,
+.contact-address ul li:hover a {
+  color: #2196f3;
+}
+
+.contact-address ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #2196f3;
 }
