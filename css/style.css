@@ -105,7 +105,7 @@ Services Section
 ============================*/
 
 .services {
-  margin: 50px 0;
+	margin: 50px 0;
 }
 
 .title h4 {
@@ -116,7 +116,7 @@ Services Section
 }
 
 .single-service {
-  width: 300px;
+  width: 30%;
   padding: 20px;
   float: left;
   margin-right: 50px;
@@ -144,9 +144,9 @@ Services Section
 }
 
 .service-img {
-  height: 146px;
-  overflow: hidden;
-  margin-bottom: 10px;
+	height: 107px;
+	overflow: hidden;
+	margin-bottom: 10px;
 }
 
 .service-page .service-img {
@@ -313,12 +313,13 @@ Contact Page - Contact Section
 
 .contact {
   margin: 50px 0;
+  padding:50px;
 }
 
 .contact-form {
-  width: 680px;
-  float: left;
-  margin-right: 50px;
+	width: 64%;
+	float: left;
+	margin-right: 50px;
 }
 
 .contact-form h4,
@@ -356,8 +357,8 @@ Contact Page - Contact Section
 }
 
 .contact-address {
-  width: 270px;
-  float: right;
+	width: 30%;
+	float: right;
 }
 
 .contact-address ul li,
@@ -386,6 +387,7 @@ Contact Page - Map Section
 
 .map {
   margin-bottom: 50px;
+  padding:50px;
 }
 
 .map iframe {
